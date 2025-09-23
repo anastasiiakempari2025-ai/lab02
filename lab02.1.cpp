@@ -12,20 +12,21 @@ int main() {
     const double PI = acos(-1.0);
 
     double a;   // вх≥дний параметр
-    double z1;  // результат першого виразу
-    //double z2;  // результат другого виразу
+   // double z1;  // результат першого виразу
+    double z2;  // результат другого виразу
 
     cout << "a = ";
     cin >> a;   // користувач сам вводить число
 
     // ‘ормули
-    z1 = (sin(4.0 * a) / (1.0 + cos(4.0 * a))) * (cos(2.0 * a) / (1.0 + cos(2.0 * a)));
-    //z2 = 1.0 / tan(1.5 * PI - a);
+   // z1 = (sin(4.0 * a) / (1.0 + cos(4.0 * a))) * (cos(2.0 * a) / (1.0 + cos(2.0 * a)));
+    z2 = 1.0 / tan(1.5 * PI - a);
 
     // ¬ив≥д
     cout << endl;
-    cout << "z1 = " << z1 << endl; // change 2
-   // cout << "z2 = " << z2 << endl; // change 3
+   // cout << "z1 = " << z1 << endl; // change 2
+    cout << "z2 = " << z2 << endl; // change 3
 
     return 0;
 }
+// «м≥ни зроблен≥ в г≥лц≥ feature
